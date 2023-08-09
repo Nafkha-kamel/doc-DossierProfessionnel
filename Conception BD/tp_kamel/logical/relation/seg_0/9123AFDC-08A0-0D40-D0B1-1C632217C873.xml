@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="film_copie" directorySegmentName="seg_0" id="9123AFDC-08A0-0D40-D0B1-1C632217C873">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 16:54:47 UTC</createdTime>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<sourcePk>57CAF870-5378-03B9-DD50-E61E4BD13AE9</sourcePk>
+<arc>3B5F601F-7A57-F700-C70C-A0DAFF84CE1B</arc>
+<identifying>false</identifying>
+<nameOnSource>avoir</nameOnSource>
+<nameOnTarget>appartenir</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>21969361-296D-9EB8-FFE0-2B6E909E6017</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8443BBD3-AC4E-6104-41A3-061C3590FA9A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

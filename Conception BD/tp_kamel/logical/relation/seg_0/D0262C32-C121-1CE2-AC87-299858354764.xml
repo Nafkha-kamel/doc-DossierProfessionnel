@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="particulier_abonnement" directorySegmentName="seg_0" id="D0262C32-C121-1CE2-AC87-299858354764">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 18:37:19 UTC</createdTime>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<sourcePk>790DC0E5-BC91-2E53-FECE-DC55841AD80E</sourcePk>
+<arc>6B509A05-2611-03A6-6B73-4B6730DF4A8A</arc>
+<identifying>false</identifying>
+<nameOnSource>detenir</nameOnSource>
+<nameOnTarget>appartenir</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8AB20BA1-A3B6-67F5-A0EA-C3D8F7C126A9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E3B9DFC7-FF87-7CA3-4FB1-09C1FD42E534</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

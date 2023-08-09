@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div id="body">
+    <div class="vide"></div>
+
+    <h2><u>Modification de Campus</u></h2>
+
+    <div class="vide"></div>
+    <div>
+        {{ form_start(modifCampForm) }}
+        {{ form_widget(modifCampForm) }}
+        {{ form_end(modifCampForm) }}
+    </div>
+    </div>
+{% endblock %}
+
+{% block title %}
+    Modification des Campus
+{% endblock %}
+

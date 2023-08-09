@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+    <div id="body">
+<div class="container-fluid">
+    <div>
+        <div class="vide"></div>
+    <div class="monProfil">
+
+        {{ form_start(userForm) }}
+        {{ form_row(userForm.prenom) }}
+        {{ form_row(userForm.nom) }}
+        {{ form_row(userForm.telephone) }}
+        {{ form_row(userForm.email) }}
+        {{ form_row(userForm.password) }}
+         {{ form_row(userForm.campus) }}
+        {{ form_row(userForm.photo) }}
+       <div class="profilValidation">
+           {{ form_row(userForm.enregistrer) }}
+           {{ form_end(userForm) }}
+
+           <a class="profilValidationA" href="{{ path('app_filtre_sortie') }}"><button class="btn btn-primary" disabled="@(!context.Validate())" >Annuler</button></a>
+       </div>
+
+    </div>
+    </div>
+</div>
+    </div>
+{% endblock %}
+

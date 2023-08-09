@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="AE290FD5-F88A-AB43-DE5A-4D29378652D2" mainViewID="AB748F51-AB8F-51BA-38AA-E50CC32D9B4A">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 12:25:51 UTC</createdTime>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

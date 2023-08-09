@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="tp_kamel" id="69F27E36-CC7E-FD49-5056-0CEBE349D7B7" version="3.5">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 12:25:51 UTC</createdTime>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>69F27E36-CC7E-FD49-5056-0CEBE349D7B7</designId>
+</OSDM_Design>

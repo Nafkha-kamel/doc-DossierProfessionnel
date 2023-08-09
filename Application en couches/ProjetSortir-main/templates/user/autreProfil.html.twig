@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+
+    <table class="autreProfil">
+        <tr>
+            <td class="autreProfilTd0"><label >Prénom :</label> </td>
+            <td class="autreProfilTd1"> {{ user.prenom }} </td>
+        </tr>
+        <tr>
+            <td class="autreProfilTd0"><label >Nom :</label> </td>
+            <td class="autreProfilTd1"> {{ user.nom }} </td>
+        </tr>
+        <tr>
+            <td class="autreProfilTd0"><label >Téléphone :</label> </td>
+            <td class="autreProfilTd1"> {{ user.telephone }} </td>
+        </tr>
+        <tr>
+            <td class="autreProfilTd0"><label >Email :</label> </td>
+            <td class="autreProfilTd1"> {{ user.email }} </td>
+        </tr>
+        <tr>
+            <td class="autreProfilTd0"><label >Campus :</label> </td>
+            <td class="autreProfilTd1"> {{ user.campus.nom }} </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="btnAutreProfil"> <button class="profilValidationBtn"> <a class="profilValidationA" href="{{ path('app_filtre_sortie') }}">Retour</a> </button></td>
+        </tr>
+    </table>
+
+
+
+{% endblock %}
+

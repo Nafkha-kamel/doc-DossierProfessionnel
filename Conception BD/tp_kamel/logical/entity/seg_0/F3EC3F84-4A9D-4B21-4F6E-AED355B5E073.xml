@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3EC3F84-4A9D-4B21-4F6E-AED355B5E073" name="LOCATION">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 16:58:47 UTC</createdTime>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_location" id="8EE789A1-CA18-2025-8BF3-E5C95FD61E05">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 16:59:27 UTC</createdTime>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_location" id="A5FD11C9-20AF-D37B-5631-E0FAD347876A">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 16:59:53 UTC</createdTime>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_retour" id="5873D1F0-55EC-C532-AF0B-9BD2B743E34C">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 17:00:08 UTC</createdTime>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_client" id="79C92377-2909-8936-AE25-2975FC8A1784">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 17:01:30 UTC</createdTime>
+<generatorID>232F33C7-B223-BFA3-B4E1-2AEAFF4BF772</generatorID>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<referedAttribute>A06AA20C-903B-CC10-6015-98DE8403F201</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_copie" id="964BDB3C-74A5-4481-F10B-77A293B556C0">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 17:03:17 UTC</createdTime>
+<generatorID>71CB9C5D-0430-C65A-E906-B7E160A05219</generatorID>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<referedAttribute>0AFF1D9A-A5C6-1823-0DF9-9DE231CDBD0B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prix" id="37C635CC-3678-14EF-C425-6184EB18364B">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 17:08:22 UTC</createdTime>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C5FEE124-93CA-2F16-F477-5DE6A014F3F2" name="LOCATION PK">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 16:59:47 UTC</createdTime>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8EE789A1-CA18-2025-8BF3-E5C95FD61E05</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

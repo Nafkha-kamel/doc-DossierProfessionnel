@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="ETAT" id="0D607E1B-94D0-CC18-7915-2A758F181F16">
+         <createdBy>33660</createdBy>
+         <createdTime>2023-01-12 16:35:34 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>10</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="BON" description=""/>
+            <valueDef value="MAUVAIS" description=""/>
+            <valueDef value="MOYEN" description=""/>
+            <valueDef value="NEUF" description=""/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="FORMAT" id="4F631DDD-9406-F22E-8BE4-D0CE59D7A6CD">
+         <createdBy>33660</createdBy>
+         <createdTime>2023-01-12 16:34:44 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>20</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="Blue-Ray" description=""/>
+            <valueDef value="DVD" description=""/>
+            <valueDef value="VHS" description=""/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+         <createdBy>33660</createdBy>
+         <createdTime>2023-01-12 12:25:52 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT017</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="CATEGORIE" id="E2F258E6-171B-1711-063A-5B4BA8180207">
+         <createdBy>33660</createdBy>
+         <createdTime>2023-01-12 16:30:56 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>20</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+         <listOfValues>
+            <valueDef value="Comique" description=""/>
+            <valueDef value="Dramatique" description=""/>
+            <valueDef value="Horreur" description=""/>
+            <valueDef value="Thriller" description=""/>
+         </listOfValues>
+      </Domain>
+   </domains>
+</DomainFile>

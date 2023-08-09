@@ -1,0 +1,332 @@
+body{
+    overflow: hidden;
+    background-color: lightgray;
+}
+#body{
+    position: relative;
+}
+#tableau-participant{
+    margin-left: 85%;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.57), -5px 0 5px rgba(0, 0, 0, 0.57), 0 5px 5px rgba(0, 0, 0, 0.57);
+}
+.img{
+    position: absolute;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    opacity: .7;
+}
+.login {
+    width: 100%;
+    margin-left: 35%;
+}
+
+.vide{
+    width: 100%;
+    height: 40px;
+}
+.vide1{
+    width: 100%;
+    height: 300px;
+}
+.vide3{
+    width: 100%;
+    height: 20px;
+}
+.titre {
+    position: relative;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 100px;
+}
+
+.form-inscription {
+    background-color: rgba(56, 237, 254, 0.22);
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.mail, .pass {
+    margin: 20px auto;
+}
+
+#registration_form_email,
+#registration_form_plainPassword{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.check-agree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: #3f73f5;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #e0e0e0;
+    color: #000;
+    transition: all 0.5s ease;
+}
+.monProfil{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+}
+form[name="sortie"]>div{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+form[name="sortie"]>div>input{
+    width: 188px;
+}
+.profilValidation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#user_enregistrer{
+    width: 140px;
+    height: 40px;
+}
+.profilValidationBtn{
+    width: 140px;
+    height: 40px;
+
+}
+.profilValidationA{
+    text-decoration: none;
+
+}
+form a:hover{
+    text-decoration: none;
+    color: black;
+
+}
+form a:visited{
+    text-decoration: none;
+    color: black;
+}
+form ul {
+    margin: 0;
+    font-size: 12px;
+    color: red;
+    padding: 0;
+}
+
+.autreProfil{
+
+    margin-left: auto;
+    margin-right: auto;
+    width : 450px;
+}
+
+.autreProfilTd0{
+    width : 100px;
+    justify-items: left;
+    padding-bottom: 20px;
+    }
+.autreProfilTd1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.btnAutreProfil{
+    text-align: center;
+}
+table a:visited{
+    text-decoration: none;
+    color: black;
+}
+table a:hover{
+    text-decoration: none;
+    color: black;
+
+}
+.maSortie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+table[name="tableModifierSortie"]{
+    width: 1000px;
+
+}
+td>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-bottom: 20px;
+}
+td>div>label{
+    width : 200px;
+}
+td>div>input{
+    width : 200px;
+
+}
+td{
+    margin-top: 0;
+    vertical-align: top;
+
+}
+td>div>select{
+    width : 208px;
+}
+td>div>textarea{
+    width : 200px;
+    height: 80px;
+    resize: none;
+}
+form[name="sortie"]{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.modifierSortieBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#sortie_enregistrer{
+    width: 140px;
+    height: 40px;
+}
+#sortie_supprimer{
+    width: 160px;
+    height: 40px;
+}
+#sortie_publier{
+    width: 160px;
+    height: 40px;
+}
+.modifierSortieTd0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 260px;
+}
+.modifierSortieTd1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 245px;
+}
+.table-striped{
+    max-height: 150px;
+    width: 200px;
+    overflow-y: scroll;
+    display: block;
+}
+table[name="tableAnnulerSortie"]{
+    width: 500px;
+
+}
+#annuler_sortie_enregistrer{
+    width: 140px;
+    height: 40px;
+
+}
+
+form[name="creation_sortie"]{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 850px;
+}
+#creation_sortie_enregistrer{
+    width: 140px;
+    height: 40px;
+}
+
+.creerSortieTd{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 408px;
+}
+
+.creerSortieTd0{
+
+    width: 200px;
+}
+#villes{
+    width: 208px;
+}
+#lieux{
+    width: 208px;
+}
+#creation_sortie_publier{
+    width: 140px;
+    height: 40px;
+}
+.result-sortie{
+    border: 1px solid black;
+}
+.form{
+    border: 1px solid black;
+}
+
+.container_accueil{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    width: 100%;
+}
+table[name="tableAccueil"]>tbody>tr>td{
+    width: 600px;
+}
+form[name="form_filtre_sorties"]{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    width: 100%;
+}
+#form_filtre_sorties_entre{
+    width: 150px;
+}
+#participant{
+    display:  flex;
+    flex-direction: column;
+   text-align: right;
+    /*margin-right: 200px;*/
+}

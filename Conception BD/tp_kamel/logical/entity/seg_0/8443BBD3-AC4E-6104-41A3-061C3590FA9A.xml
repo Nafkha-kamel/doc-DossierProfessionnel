@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8443BBD3-AC4E-6104-41A3-061C3590FA9A" name="COPIE">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 16:33:00 UTC</createdTime>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_copie" id="0AFF1D9A-A5C6-1823-0DF9-9DE231CDBD0B">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 16:33:35 UTC</createdTime>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="format" id="F769C7E2-D693-5901-83F5-AE508BAF7073">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 16:33:51 UTC</createdTime>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<domain>4F631DDD-9406-F22E-8BE4-D0CE59D7A6CD</domain>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="etat" id="4FE4C512-75C4-3915-99FE-CFC19493F575">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 16:36:37 UTC</createdTime>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0D607E1B-94D0-CC18-7915-2A758F181F16</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_film" id="A5F988D1-C6B9-F1EA-CE0B-AE4C20EAF7CE">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 16:54:47 UTC</createdTime>
+<generatorID>9123AFDC-08A0-0D40-D0B1-1C632217C873</generatorID>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<referedAttribute>E0D6AC26-6D2E-0198-0BB0-4BFB28CDBF20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_film1" id="513E9A44-E609-E509-7D78-90F4AA809EE3">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 17:22:29 UTC</createdTime>
+<generatorID>7EFF58AF-A5DC-C66E-58B8-562E4D16C687</generatorID>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<referedAttribute>E0D6AC26-6D2E-0198-0BB0-4BFB28CDBF20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="no_fournisseur" id="F4634C89-7782-975A-0726-9B7AF2349082">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 18:41:27 UTC</createdTime>
+<generatorID>7C816B5C-172A-53DE-2B70-B98587637F1E</generatorID>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<referedAttribute>9D682CFB-D67D-0100-317F-E522C3835F3F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0C0501FE-F7C2-64DF-E034-5CF7CB9D6A21" name="COPIE PK">
+<createdBy>33660</createdBy>
+<createdTime>2023-01-12 16:33:49 UTC</createdTime>
+<ownerDesignName>tp_kamel</ownerDesignName>
+<engineerTo>
+<item key="D1079207-B4C5-4933-BEEC-11792A35B9EF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0AFF1D9A-A5C6-1823-0DF9-9DE231CDBD0B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

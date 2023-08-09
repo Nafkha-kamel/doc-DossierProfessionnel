@@ -1,0 +1,281 @@
+@font-face{
+	font-family: 'DancingScript-VariableFont_wght';
+	src:  url('polices/DancingScript-VariableFont_wght.ttf') format('truetype');
+	/*	  url('polices/static/DancingScript-Bold.ttf') format('truetype'),
+		  url('polices/static/DancingScript-Medium.ttf') format('truetype'),
+		  url('polices/static/DancingScript-Regular.ttf') format('truetype'),
+		  url('polices/static/DancingScript-SemiBold.ttf') format('truetype');*/
+		  font-weight:  normal;
+		  font-style:  normal;
+}
+
+@font-face{
+	font-family: 'Ubuntu';
+	src:  url('polices/Ubuntu/Ubuntu-Bold.ttf') format('truetype'),
+	      url('polices/Ubuntu/Ubuntu-BoldItalic.ttf') format('truetype'),
+	      url('polices/Ubuntu/Ubuntu-Italic.ttf') format('truetype'),
+	      url('polices/Ubuntu/Ubuntu-Light.ttf') format('truetype'),
+	      url('polices/Ubuntu/Ubuntu-LightItalic.ttf') format('truetype'),
+	      url('polices/Ubuntu/Ubuntu-Medium.ttf') format('truetype'),
+	      url('polices/Ubuntu/Ubuntu-MediumItalic.ttf') format('truetype'),
+	      url('polices/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+	
+		  font-weight:  normal;
+		  font-style:  normal;
+}
+@font-face{
+	font-family: 'JosefinSans';
+	src:  url('polices/Josefin_sans/JosefinSans-VariableFont_wght.ttf') format('truetype');
+	      
+	
+		  font-weight:  normal;
+		  font-style:  normal;
+}
+
+@font-face{
+	font-family: 'MochiyPopOne';
+	src:  url('polices/Mochiy_Pop_One/MochiyPopOne-Regular.ttf') format('truetype');
+	      
+		  font-weight:  normal;
+		  font-style:  normal;
+}
+body{
+	/*background-image: linear-gradient(to bottom, rgb(12,29,28) , rgb(41,97,94));*/
+	background-color: rgb(41,97,94);
+	color: red;
+	width : 1200px;
+	margin : auto;
+	font-family: 'Helvetiva', 'Trebuchet MS'; Arial, sans-serif;
+		
+}
+
+
+header{
+	margin-top: 10px;
+	display: flex;
+	/*justify-content: space-between;*/
+	flex-direction: row;
+	/*height: 100px;*/
+	/*align-items: left;*/
+	background: url("images/SW-share.jpg") no-repeat;
+	background-size: 100%  100%;
+	/*border: 1px black solid;*/
+	border-radius: 10px;
+
+
+}
+header img{
+	width:  auto;
+	height : auto;
+}
+header p{
+	margin-top: 0px;
+margin-left: 40px;
+font-family: 'MochiyPopOne','Helvetiva', 'Trebuchet MS'; Arial, sans-serif;
+color:  springgreen;
+font-size: 18px;
+font-style: italic;
+}
+#logo img {
+	margin-bottom: 0px;
+	padding-left: 40px;
+	margin-left: 30px;
+	padding-top: 0px;
+	width:  120px;
+	height:  120px;
+}
+
+/***************** section1 ********************/
+#section1{
+    display: flex;
+  /* border : black solid;*/
+	/*justify-content: space-between;*/
+	flex-direction: column;
+	margin-bottom: 50px;
+	/*align-content: center;*/
+	margin-top: 0px;
+	margin-bottom: 100px;
+}
+#menu1{
+	display: flex;
+	flex-direction: row ;
+	justify-content: space-between;
+width: 1200px;
+height: 100px;
+padding-top: 10px;
+border-radius: 10px;
+/*background-color: white;*/
+margin:  auto;
+/*-right: 10px;
+
+margin-left: 10px;*/
+
+margin-top: 0px;
+}
+a:hover
+{
+text-decoration: underline;
+}
+#article1{
+	margin-top:0px;
+
+width: 1200px;	
+height: 510px;
+/*border : 1px black solid;*/
+border-radius: 10px;
+margin:  auto;
+background: white ; 
+
+}
+.faceb{
+	width: 280px;
+	margin-left: 00px;
+	margin-rigth: 20px;
+	margin-top: 20px;
+	height: 80px;
+	padding-top: 20px;
+	/*padding-right: 10px;
+	padding-left: 100px ;*/
+	/*border: 1px black solid;*/
+	box-shadow: 2px 2px 2px gray;
+	border-radius: 5px;
+	text-align: center;
+	color: black;
+	background: white ;
+	background-size: 30px;
+	background-position:  10px 4px, center;
+	font-family: 'JosefinSans','Helvetiva', 'Trebuchet MS'; Arial, sans-serif;
+}
+.ggl{
+	width: 280px;
+	margin-left: 20px;
+	margin-rigth: 20px;
+	margin-top: 20px;
+	height: 40px;
+	padding-top: 20px;
+	/*padding-right: 10px;
+	padding-left: 100px ;*/
+	border: 1px black solid;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px gray;
+	text-align: center;
+	color: black;
+	background: white; 
+	background-size: 25px;
+	background-position:  13px 5px, center;
+	font-family: 'JosefinSans','Helvetiva', 'Trebuchet MS'; Arial, sans-serif;
+}
+.appl{
+	width: 280px;
+	margin-left: 20px;
+	margin-rigth: 20px;
+	margin-top: 20px;
+	height: 40px;
+	padding-top: 20px;
+	/*padding-right: 10px;
+	padding-left: 100px ;*/
+	border: 1px black solid;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px gray;
+	text-align: center;
+	color: black;
+	background: white; 
+	background-size: 25px;
+	background-position:  13px 2px, center;
+	font-family: 'JosefinSans','Helvetiva', 'Trebuchet MS'; Arial, sans-serif;
+}
+
+
+.retour{
+	width: 100px;
+	/*margin-left: 00px;*/
+	margin-left:730px;
+	margin-top: 120px;
+	height: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/*padding-right: 10px;
+	padding-left: 100px ;*/
+	border: 1px black solid;
+	box-shadow: 2px 2px 2px gray;
+	border-radius: 5px;
+	text-align: center;
+	color: black;
+	background: springgreen ;
+	background-size: 30px;
+	background-position:  10px 4px, center;
+	font-family: 'JosefinSans','Helvetiva', 'Trebuchet MS'; Arial, sans-serif;
+}
+
+.deconnexion{
+	width: 140px;
+	/*margin-left: 00px;*/
+	margin-left:10px;
+	margin-top: 120px;
+	height: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	/*padding-right: 10px;
+	padding-left: 100px ;*/
+	border: 1px black solid;
+	box-shadow: 2px 2px 2px gray;
+	border-radius: 5px;
+	text-align: center;
+	color: black;
+	background: springgreen ;
+	background-size: 30px;
+	background-position:  10px 4px, center;
+	font-family: 'JosefinSans','Helvetiva', 'Trebuchet MS'; Arial, sans-serif;
+}
+a {
+text-decoration: none;
+
+}
+
+/*****************************************/
+
+p{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+ul{
+	list-style: none;
+}
+h1{
+	font-size: 60px;
+	color : white;
+	margin-bottom: 0px;
+	font-family: 'DancingScript-VariableFont_wght','Helvetiva', 'Trebuchet MS'; Arial, sans-serif;
+		
+}
+
+h2{
+	font-size: 25px;
+	color : white;
+	margin-bottom: 50px;
+	margin-top: 5px;
+	/*border: black solid;*/
+	font-family: 'MochiyPopOne','Helvetiva', 'Trebuchet MS'; Arial, sans-serif;
+	font: italic;
+}
+/************ footer ***************/
+.ff{
+	
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	align-items: center;
+/*	align-content: a;*/
+	margin:  auto;
+	justify-content: center;
+	font-family: 'Ubuntu','Helvetiva', 'Trebuchet MS'; Arial, sans-serif;
+	color:  white;
+
+
+}
+.ff img{
+	margin-left: 50px;
+	/*margin-top: 5px;*/
+	width :30px;
+	height: 30px;
+}
