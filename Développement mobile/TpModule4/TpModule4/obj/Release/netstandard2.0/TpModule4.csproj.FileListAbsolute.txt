@@ -1,0 +1,15 @@
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4\bin\Release\netstandard2.0\TpModule4.deps.json
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4\bin\Release\netstandard2.0\TpModule4.dll
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4\bin\Release\netstandard2.0\TpModule4.pdb
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4\obj\Release\netstandard2.0\TpModule4.csproj.AssemblyReference.cache
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4\obj\Release\netstandard2.0\TpModule4.GeneratedMSBuildEditorConfig.editorconfig
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4\obj\Release\netstandard2.0\App.xaml.g.cs
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4\obj\Release\netstandard2.0\TpModule4.AssemblyInfoInputs.cache
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4\obj\Release\netstandard2.0\TpModule4.AssemblyInfo.cs
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4\obj\Release\netstandard2.0\TpModule4.csproj.CoreCompileInputs.cache
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4\obj\Release\netstandard2.0\XamlC.stamp
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4\obj\Release\netstandard2.0\TpModule4.dll
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4\obj\Release\netstandard2.0\refint\TpModule4.dll
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4\obj\Release\netstandard2.0\TpModule4.pdb
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4\obj\Release\netstandard2.0\ref\TpModule4.dll

@@ -1,0 +1,1 @@
+E:\ws_xamarin\TpModule4\TpModule4\TpModule4.UWP\TpModule4.UWP.csproj;x86

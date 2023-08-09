@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TpModule4.MainPage">
+    
+    <StackLayout Orientation="Vertical">
+        
+         <StackLayout Orientation="Horizontal" Background="#58B0F0"  >
+            <ImageButton Source="pencil.png" HorizontalOptions="StartAndExpand" HeightRequest="25" ></ImageButton>
+            <Label Text="Accueil" HorizontalOptions="CenterAndExpand" Margin="10,25" FontSize="20" FontAttributes="Bold"></Label>
+            <ImageButton Source="search.png" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" HeightRequest="25" ></ImageButton>
+        </StackLayout>
+
+
+        
+        <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+               <StackLayout Orientation="Vertical" Margin="10,10">
+                <StackLayout x:Name="form"> 
+                <Label Text="Connexion à Twitter" HorizontalOptions="CenterAndExpand"></Label>
+                <Entry x:Name="id" Placeholder="Identifiant Twitter" HorizontalOptions="FillAndExpand"> </Entry>
+                <Entry x:Name="motDePasse" Placeholder="Mot de passe" HorizontalOptions="FillAndExpand" IsPassword="True"></Entry>
+                <StackLayout Orientation="Horizontal">
+                    <Switch x:Name="sw"></Switch>
+                    <Label Text="Mémoriser mes informations" HorizontalOptions="Start"></Label>
+                    
+                </StackLayout>
+                <Label x:Name="error" IsVisible="false" TextColor="DarkRed"></Label>
+                <Button Text="Se connecter" Clicked="Connection_Clicked" HorizontalOptions="FillAndExpand"></Button>
+                </StackLayout>
+
+                <StackLayout x:Name="tweets"    Orientation="Horizontal">
+                    <Image Margin="10" WidthRequest="75" Aspect="AspectFit" Source="https://fastly.picsum.photos/id/822/50/50.jpg?hmac=TDxVavw8LbXc-1aaxmHIA-JsO4nEnf2FoyUnT4u5N9U" ></Image>
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Cedric"></Label>
+                            <Label Text="@cedricmillauriaux"></Label>
+                            <Label Text="11/05/2023"></Label>
+                            
+                        </StackLayout>
+                        
+                        <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod convallis dolor. Quisque ultricies porttitor nunc venenatis facilisis.">
+                        </Label>
+
+                    </StackLayout>
+                </StackLayout>
+                
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton Source="pencil.png" HorizontalOptions="StartAndExpand" HeightRequest="25" ></ImageButton>
+                    <ImageButton Source="pencil.png" HorizontalOptions="CenterAndExpand" HeightRequest="25" ></ImageButton>
+                    <ImageButton Source="pencil.png" HorizontalOptions="EndAndExpand" HeightRequest="25" ></ImageButton>
+                    
+
+                </StackLayout>
+                <BoxView BackgroundColor="Gray" HeightRequest="2"></BoxView>
+            </StackLayout>
+            
+        </ScrollView>
+
+        <StackLayout Orientation="Horizontal" Background="#58B0F0" >
+            <Label Text="Fil" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="75"></Label>
+            <Label Text="Notifications" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="75" ></Label>
+            <Label Text="Messages" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="75" ></Label>
+            <Label Text="Moi" HorizontalOptions="EndAndExpand" VerticalOptions="CenterAndExpand" HeightRequest="75"></Label>
+        </StackLayout>
+
+    </StackLayout>
+    
+    
+        
+    
+    
+</ContentPage>
