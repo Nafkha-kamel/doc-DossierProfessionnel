@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "5zGQ6Gohx3ODXUmlskrH1OlObXUQNAxzrH4Jc8LGxb/zru3VZvzazXnYn07MtLVcG+qrPwNzG3b7ueSPOhwpkQ==",
+  "dgSpecHash": "QVj1k+AT11vZD8DHkCgWNqT3PqvHYHPy40wHna8L1okzX311+twmyauVL4n+SJmtJJ0057XOvFQ9bU9QkOcmyw==",
   "success": true,
-  "projectFilePath": "E:\\ws_xamarin\\TpModule4\\TpModule4\\TpModule4\\TpModule4.csproj",
+  "projectFilePath": "C:\\Users\\HP\\Documents\\GitHub\\doc-DossierProfessionnel\\Développement mobile\\TpModule4\\TpModule4\\TpModule4.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\33660\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\33660\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\33660\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\33660\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\33660\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }
